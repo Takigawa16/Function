@@ -10,9 +10,9 @@ def check_grade(grade):
  else:
     return "Invalid grades"
 
-user = int(input("Enter A grade : "))
+userdata = int(input("Enter A grade : "))
 
-print(check_grade(user))
+print(check_grade(userdata))
 
 
 
